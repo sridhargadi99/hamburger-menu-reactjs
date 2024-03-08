@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.about-container {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.about-card-container {
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .about-card-container {
+    width: 600px;
+  }
+}
+.about-image-sm-style {
+  display: block;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .about-image-sm-style {
+    display: none;
+  }
+}
+.about-image-lg-style {
+  display: none;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .about-image-lg-style {
+    display: block;
+  }
+}
